@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metronome</title>
+    <link rel="icon" href="../assets/images/icon.png" />
+    <link rel="stylesheet" type="text/css" href="./styles/styles.css">
+</head>
+<body>
+    <form id="metronome-container">
+
+        <div class="time-signature">
+            <button type="button" id="time-minus">⏷︎</button>
+            <span id="time-signature-value">4/4</span>
+            <button type="button" id="time-plus">⏶︎</button>
+        </div>
+
+        <div class="bpm-display"> 
+            <span class="bpm-value-nr" id="bpm-value">120</span>
+            <span class="bpm-value-text" for="bpm-slider">BPM</span>
+        </div>
+
+        <input type="range" class="slider" id="bpm-slider" min="40" max="280" value="120">
+
+        <button type="button" id="start-pause">⏵︎</button>
+    </form>
+
+    <div id="zoom-container"></div>
+    <script src="./js/script.js"></script>
+</body>
+</html>
