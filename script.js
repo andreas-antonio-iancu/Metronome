@@ -6,8 +6,8 @@ const timePlus = document.getElementById('time-plus');
 const startPauseBtn = document.getElementById('start-pause');
 const zoomContainer = document.getElementById('zoom-container'); 
 
-const metronomeSound = new Audio ( "/assets/audio/metronome-2.mp3");
-const accentSound = new Audio ( "/assets/audio/metronome-1.mp3");
+const metronomeSound = new Audio ( "assets/audio/metronome-2.mp3");
+const accentSound = new Audio ( "assets/audio/metronome-1.mp3");
 
 let bpm = bpmSlider.value;
 let isRunning = false;
