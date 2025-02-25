@@ -4,7 +4,7 @@ const timeSignatureValue = document.getElementById('time-signature-value');
 const timeMinus = document.getElementById('time-minus');
 const timePlus = document.getElementById('time-plus');
 const startPauseBtn = document.getElementById('start-pause');
-const zoomContainer = document.getElementById('zoom-container');
+const zoomContainer = document.getElementById('zoom-container'); 
 
 const metronomeSound = new Audio ( "/assets/audio/metronome-2.mp3");
 const accentSound = new Audio ( "/assets/audio/metronome-1.mp3");
