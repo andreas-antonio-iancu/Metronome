@@ -13,6 +13,3 @@ A customizable metronome app designed for an intuitive and aesthetic user experi
 ## Technologies Used
 - HTML, CSS, JavaScript
 - Modern web design principles for enhanced UX/UI
-
-## Feedback and Contributions
-Feel free to open issues or contribute to the project!
