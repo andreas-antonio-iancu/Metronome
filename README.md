@@ -8,7 +8,7 @@ A customizable metronome app designed for an intuitive and aesthetic user experi
 - Adjust BPM (Beats Per Minute)
 - Select different time signatures
 - Visual and auditory feedback
-- Responsive design, optimized for iPhone 12 (390x844)
+- Responsive design, optimized also for mobile use
 
 ## Technologies Used
 - HTML, CSS, JavaScript
